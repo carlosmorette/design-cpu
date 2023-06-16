@@ -336,4 +336,89 @@
     </comp>
     <comp loc="(290,240)" name="CPU_MEM_8"/>
   </circuit>
+  <circuit name="CPU_DECODE_2X4">
+    <a name="circuit" val="CPU_DECODE_2X4"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <path d="M175,202 Q179,212 183,202" fill="none" stroke="#808080" stroke-width="2"/>
+      <rect fill="none" height="128" stroke="#000000" stroke-width="2" width="80" x="140" y="200"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="180" y="229">CPU</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="181" y="243">DECODE</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="181" y="259">2x4</text>
+      <circ-port height="10" pin="360,200" width="10" x="215" y="225"/>
+      <circ-port height="10" pin="360,260" width="10" x="215" y="255"/>
+      <circ-port height="10" pin="360,320" width="10" x="215" y="285"/>
+      <circ-port height="10" pin="360,380" width="10" x="215" y="305"/>
+      <circ-port height="8" pin="50,160" width="8" x="156" y="196"/>
+      <circ-port height="8" pin="110,160" width="8" x="186" y="196"/>
+      <circ-anchor facing="east" height="6" width="6" x="217" y="227"/>
+    </appear>
+    <wire from="(300,380)" to="(360,380)"/>
+    <wire from="(300,320)" to="(360,320)"/>
+    <wire from="(300,260)" to="(360,260)"/>
+    <wire from="(300,200)" to="(360,200)"/>
+    <wire from="(50,180)" to="(50,310)"/>
+    <wire from="(200,220)" to="(250,220)"/>
+    <wire from="(200,330)" to="(250,330)"/>
+    <wire from="(200,140)" to="(200,220)"/>
+    <wire from="(200,330)" to="(200,410)"/>
+    <wire from="(50,160)" to="(50,180)"/>
+    <wire from="(180,180)" to="(180,200)"/>
+    <wire from="(160,220)" to="(200,220)"/>
+    <wire from="(110,380)" to="(110,410)"/>
+    <wire from="(180,250)" to="(180,410)"/>
+    <wire from="(110,280)" to="(110,380)"/>
+    <wire from="(90,180)" to="(180,180)"/>
+    <wire from="(180,140)" to="(180,180)"/>
+    <wire from="(110,220)" to="(130,220)"/>
+    <wire from="(200,220)" to="(200,330)"/>
+    <wire from="(180,200)" to="(180,250)"/>
+    <wire from="(50,310)" to="(50,360)"/>
+    <wire from="(50,360)" to="(50,410)"/>
+    <wire from="(110,280)" to="(250,280)"/>
+    <wire from="(110,380)" to="(250,380)"/>
+    <wire from="(50,180)" to="(60,180)"/>
+    <wire from="(180,200)" to="(250,200)"/>
+    <wire from="(180,250)" to="(250,250)"/>
+    <wire from="(50,310)" to="(250,310)"/>
+    <wire from="(50,360)" to="(250,360)"/>
+    <wire from="(110,160)" to="(110,220)"/>
+    <wire from="(110,220)" to="(110,280)"/>
+    <comp lib="1" loc="(300,380)" name="AND Gate"/>
+    <comp lib="1" loc="(90,180)" name="NOT Gate"/>
+    <comp lib="1" loc="(300,200)" name="AND Gate"/>
+    <comp lib="0" loc="(360,320)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(300,260)" name="AND Gate"/>
+    <comp lib="0" loc="(360,260)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(110,160)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(360,200)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(160,220)" name="NOT Gate"/>
+    <comp lib="0" loc="(360,380)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(50,160)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(300,320)" name="AND Gate"/>
+  </circuit>
 </project>
