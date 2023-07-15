@@ -89,24 +89,7 @@
       <a name="text" val="kkkk"/>
     </tool>
   </lib>
-  <lib desc="file#CPU_MEM_1.circ" name="7"/>
-  <lib desc="file#CPU_DESIGN.circ" name="8">
-    <tool name="CPU_ADDER_8">
-      <a name="facing" val="north"/>
-    </tool>
-    <tool name="CPU_ACCUMULATOR">
-      <a name="facing" val="south"/>
-    </tool>
-    <tool name="CPU_R">
-      <a name="facing" val="north"/>
-    </tool>
-    <tool name="CPU_TMP">
-      <a name="facing" val="south"/>
-    </tool>
-    <tool name="CPU_STEPPER">
-      <a name="facing" val="south"/>
-    </tool>
-  </lib>
+  <lib desc="file#CPU_DESIGN.circ" name="7"/>
   <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -155,13 +138,6 @@
     <wire from="(300,290)" to="(300,330)"/>
     <wire from="(390,260)" to="(390,270)"/>
     <wire from="(380,270)" to="(380,310)"/>
-    <comp lib="0" loc="(540,230)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(450,230)" name="CPU_REG_8"/>
     <comp lib="0" loc="(300,330)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
@@ -169,6 +145,13 @@
       <a name="width" val="8"/>
       <a name="tristate" val="false"/>
     </comp>
+    <comp lib="0" loc="(540,230)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(450,230)" name="CPU_REG_8"/>
     <comp lib="0" loc="(380,310)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
@@ -189,89 +172,89 @@
       <circ-port height="10" pin="570,240" width="10" x="115" y="75"/>
       <circ-anchor facing="east" height="6" width="6" x="117" y="77"/>
     </appear>
-    <wire from="(600,260)" to="(600,780)"/>
-    <wire from="(290,790)" to="(340,790)"/>
-    <wire from="(410,880)" to="(590,880)"/>
-    <wire from="(290,290)" to="(340,290)"/>
-    <wire from="(290,990)" to="(340,990)"/>
-    <wire from="(290,890)" to="(340,890)"/>
-    <wire from="(290,690)" to="(340,690)"/>
-    <wire from="(290,590)" to="(340,590)"/>
-    <wire from="(290,490)" to="(340,490)"/>
-    <wire from="(290,390)" to="(340,390)"/>
+    <wire from="(410,790)" to="(600,790)"/>
+    <wire from="(290,610)" to="(340,610)"/>
+    <wire from="(290,510)" to="(340,510)"/>
+    <wire from="(290,710)" to="(340,710)"/>
+    <wire from="(290,810)" to="(340,810)"/>
+    <wire from="(290,910)" to="(340,910)"/>
+    <wire from="(290,1010)" to="(340,1010)"/>
+    <wire from="(290,310)" to="(340,310)"/>
+    <wire from="(290,410)" to="(340,410)"/>
+    <wire from="(640,260)" to="(640,390)"/>
+    <wire from="(290,1010)" to="(290,1020)"/>
     <wire from="(200,240)" to="(200,380)"/>
-    <wire from="(630,260)" to="(630,480)"/>
-    <wire from="(290,990)" to="(290,1020)"/>
-    <wire from="(410,380)" to="(640,380)"/>
+    <wire from="(410,990)" to="(580,990)"/>
+    <wire from="(410,290)" to="(650,290)"/>
+    <wire from="(600,260)" to="(600,790)"/>
     <wire from="(160,240)" to="(160,780)"/>
+    <wire from="(410,490)" to="(630,490)"/>
     <wire from="(100,220)" to="(130,220)"/>
-    <wire from="(590,260)" to="(590,880)"/>
-    <wire from="(410,580)" to="(620,580)"/>
+    <wire from="(630,260)" to="(630,490)"/>
     <wire from="(190,240)" to="(190,480)"/>
     <wire from="(140,980)" to="(340,980)"/>
+    <wire from="(410,690)" to="(610,690)"/>
+    <wire from="(590,260)" to="(590,890)"/>
     <wire from="(150,880)" to="(340,880)"/>
     <wire from="(150,240)" to="(150,880)"/>
-    <wire from="(410,780)" to="(600,780)"/>
-    <wire from="(620,260)" to="(620,580)"/>
+    <wire from="(620,260)" to="(620,590)"/>
+    <wire from="(410,890)" to="(590,890)"/>
     <wire from="(160,780)" to="(340,780)"/>
-    <wire from="(410,980)" to="(580,980)"/>
+    <wire from="(580,260)" to="(580,990)"/>
     <wire from="(170,680)" to="(340,680)"/>
     <wire from="(180,240)" to="(180,580)"/>
-    <wire from="(410,280)" to="(650,280)"/>
-    <wire from="(580,260)" to="(580,980)"/>
-    <wire from="(650,260)" to="(650,280)"/>
-    <wire from="(290,890)" to="(290,990)"/>
-    <wire from="(290,790)" to="(290,890)"/>
-    <wire from="(290,690)" to="(290,790)"/>
-    <wire from="(290,590)" to="(290,690)"/>
-    <wire from="(290,490)" to="(290,590)"/>
-    <wire from="(290,290)" to="(290,390)"/>
-    <wire from="(290,390)" to="(290,490)"/>
-    <wire from="(410,480)" to="(630,480)"/>
+    <wire from="(650,260)" to="(650,290)"/>
+    <wire from="(410,390)" to="(640,390)"/>
+    <wire from="(290,310)" to="(290,410)"/>
+    <wire from="(290,410)" to="(290,510)"/>
+    <wire from="(290,510)" to="(290,610)"/>
+    <wire from="(290,610)" to="(290,710)"/>
+    <wire from="(290,710)" to="(290,810)"/>
+    <wire from="(290,810)" to="(290,910)"/>
+    <wire from="(290,910)" to="(290,1010)"/>
     <wire from="(180,580)" to="(340,580)"/>
     <wire from="(140,240)" to="(140,980)"/>
+    <wire from="(610,260)" to="(610,690)"/>
+    <wire from="(410,590)" to="(620,590)"/>
     <wire from="(190,480)" to="(340,480)"/>
     <wire from="(210,240)" to="(210,280)"/>
-    <wire from="(610,260)" to="(610,680)"/>
-    <wire from="(640,260)" to="(640,380)"/>
     <wire from="(200,380)" to="(340,380)"/>
     <wire from="(170,240)" to="(170,680)"/>
     <wire from="(210,280)" to="(340,280)"/>
-    <wire from="(410,680)" to="(610,680)"/>
-    <comp lib="7" loc="(390,880)" name="CPU_MEM_1"/>
-    <comp lib="0" loc="(570,240)" name="Splitter">
+    <comp loc="(410,990)" name="CPU_MEM_1"/>
+    <comp lib="0" loc="(130,220)" name="Splitter">
       <a name="facing" val="south"/>
       <a name="fanout" val="8"/>
       <a name="incoming" val="8"/>
     </comp>
+    <comp loc="(410,890)" name="CPU_MEM_1"/>
+    <comp loc="(410,290)" name="CPU_MEM_1"/>
     <comp lib="0" loc="(290,1020)" name="Pin">
       <a name="facing" val="north"/>
       <a name="tristate" val="false"/>
       <a name="label" val="s"/>
     </comp>
-    <comp lib="7" loc="(390,980)" name="CPU_MEM_1"/>
+    <comp loc="(410,490)" name="CPU_MEM_1"/>
+    <comp loc="(410,590)" name="CPU_MEM_1"/>
+    <comp loc="(410,390)" name="CPU_MEM_1"/>
+    <comp loc="(410,790)" name="CPU_MEM_1"/>
     <comp lib="0" loc="(100,220)" name="Pin">
       <a name="width" val="8"/>
       <a name="tristate" val="false"/>
       <a name="label" val="i"/>
     </comp>
-    <comp lib="7" loc="(390,680)" name="CPU_MEM_1"/>
-    <comp lib="7" loc="(390,280)" name="CPU_MEM_1"/>
-    <comp lib="7" loc="(390,380)" name="CPU_MEM_1"/>
+    <comp loc="(410,690)" name="CPU_MEM_1"/>
+    <comp lib="0" loc="(570,240)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
     <comp lib="0" loc="(570,240)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="tristate" val="false"/>
       <a name="label" val="o"/>
       <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="7" loc="(390,780)" name="CPU_MEM_1"/>
-    <comp lib="7" loc="(390,580)" name="CPU_MEM_1"/>
-    <comp lib="7" loc="(390,480)" name="CPU_MEM_1"/>
-    <comp lib="0" loc="(130,220)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
     </comp>
   </circuit>
   <circuit name="CPU_ENABLE">
@@ -337,19 +320,10 @@
     <wire from="(220,190)" to="(220,250)"/>
     <wire from="(220,250)" to="(220,310)"/>
     <wire from="(500,130)" to="(500,250)"/>
-    <comp lib="1" loc="(310,490)" name="AND Gate"/>
-    <comp lib="1" loc="(310,430)" name="AND Gate"/>
-    <comp lib="1" loc="(310,550)" name="AND Gate"/>
-    <comp lib="1" loc="(310,370)" name="AND Gate"/>
-    <comp lib="1" loc="(310,610)" name="AND Gate"/>
-    <comp lib="1" loc="(310,250)" name="AND Gate"/>
-    <comp lib="0" loc="(120,150)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
-    </comp>
     <comp lib="1" loc="(310,190)" name="AND Gate"/>
-    <comp lib="0" loc="(430,110)" name="Splitter">
+    <comp lib="1" loc="(310,610)" name="AND Gate"/>
+    <comp lib="1" loc="(310,310)" name="AND Gate"/>
+    <comp lib="0" loc="(120,150)" name="Splitter">
       <a name="facing" val="south"/>
       <a name="fanout" val="8"/>
       <a name="incoming" val="8"/>
@@ -359,10 +333,19 @@
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(310,310)" name="AND Gate"/>
     <comp lib="0" loc="(120,150)" name="Pin">
       <a name="width" val="8"/>
       <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(310,490)" name="AND Gate"/>
+    <comp lib="1" loc="(310,370)" name="AND Gate"/>
+    <comp lib="1" loc="(310,430)" name="AND Gate"/>
+    <comp lib="1" loc="(310,550)" name="AND Gate"/>
+    <comp lib="1" loc="(310,250)" name="AND Gate"/>
+    <comp lib="0" loc="(430,110)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
     </comp>
     <comp lib="0" loc="(220,670)" name="Pin">
       <a name="facing" val="north"/>
@@ -399,25 +382,25 @@
     <wire from="(180,260)" to="(220,260)"/>
     <wire from="(350,280)" to="(350,390)"/>
     <wire from="(290,240)" to="(360,240)"/>
-    <comp loc="(440,250)" name="CPU_ENABLE"/>
     <comp lib="0" loc="(180,390)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(470,250)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(290,240)" name="CPU_MEM_8"/>
-    <comp lib="0" loc="(350,390)" name="Pin">
       <a name="facing" val="north"/>
       <a name="tristate" val="false"/>
     </comp>
     <comp lib="0" loc="(210,230)" name="Pin">
       <a name="width" val="8"/>
       <a name="tristate" val="false"/>
+    </comp>
+    <comp loc="(440,250)" name="CPU_ENABLE"/>
+    <comp lib="0" loc="(350,390)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp loc="(290,240)" name="CPU_MEM_8"/>
+    <comp lib="0" loc="(470,250)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
     </comp>
   </circuit>
   <circuit name="CPU_DECODER_2X4">
@@ -470,40 +453,40 @@
     <wire from="(50,360)" to="(250,360)"/>
     <wire from="(110,160)" to="(110,220)"/>
     <wire from="(110,220)" to="(110,280)"/>
-    <comp lib="0" loc="(360,200)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
     <comp lib="0" loc="(360,260)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(300,200)" name="AND Gate"/>
-    <comp lib="0" loc="(110,160)" name="Pin">
+    <comp lib="1" loc="(300,260)" name="AND Gate"/>
+    <comp lib="0" loc="(50,160)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
     </comp>
+    <comp lib="1" loc="(90,180)" name="NOT Gate"/>
+    <comp lib="1" loc="(300,200)" name="AND Gate"/>
     <comp lib="1" loc="(160,220)" name="NOT Gate"/>
-    <comp lib="1" loc="(300,260)" name="AND Gate"/>
+    <comp lib="0" loc="(360,200)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(300,380)" name="AND Gate"/>
     <comp lib="0" loc="(360,380)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(90,180)" name="NOT Gate"/>
-    <comp lib="0" loc="(50,160)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(300,320)" name="AND Gate"/>
-    <comp lib="1" loc="(300,380)" name="AND Gate"/>
     <comp lib="0" loc="(360,320)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
+    <comp lib="0" loc="(110,160)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(300,320)" name="AND Gate"/>
   </circuit>
   <circuit name="CPU_DECODER_4X16">
     <a name="circuit" val="CPU_DECODER_4X16"/>
@@ -632,13 +615,8 @@
     <wire from="(410,120)" to="(420,120)"/>
     <wire from="(130,300)" to="(210,300)"/>
     <wire from="(600,320)" to="(740,320)"/>
-    <comp loc="(500,360)" name="CPU_DECODER_2X4E"/>
-    <comp loc="(500,500)" name="CPU_DECODER_2X4E"/>
-    <comp lib="0" loc="(800,390)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="16"/>
-      <a name="labelloc" val="east"/>
+    <comp lib="0" loc="(130,360)" name="Constant">
+      <a name="facing" val="north"/>
     </comp>
     <comp lib="0" loc="(60,100)" name="Splitter">
       <a name="facing" val="south"/>
@@ -646,12 +624,25 @@
       <a name="incoming" val="4"/>
       <a name="appear" val="right"/>
     </comp>
+    <comp loc="(500,220)" name="CPU_DECODER_2X4E"/>
     <comp lib="0" loc="(70,40)" name="Pin">
       <a name="width" val="4"/>
       <a name="tristate" val="false"/>
       <a name="label" val="input"/>
     </comp>
+    <comp lib="0" loc="(800,390)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="16"/>
+      <a name="labelloc" val="east"/>
+    </comp>
     <comp loc="(500,80)" name="CPU_DECODER_2X4E"/>
+    <comp loc="(500,360)" name="CPU_DECODER_2X4E"/>
+    <comp loc="(500,500)" name="CPU_DECODER_2X4E"/>
+    <comp lib="0" loc="(80,300)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="enable"/>
+    </comp>
     <comp loc="(290,230)" name="CPU_DECODER_2X4E"/>
     <comp lib="0" loc="(760,390)" name="Splitter">
       <a name="facing" val="west"/>
@@ -659,14 +650,6 @@
       <a name="incoming" val="16"/>
       <a name="appear" val="right"/>
     </comp>
-    <comp lib="0" loc="(80,300)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="enable"/>
-    </comp>
-    <comp lib="0" loc="(130,360)" name="Constant">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp loc="(500,220)" name="CPU_DECODER_2X4E"/>
   </circuit>
   <circuit name="CPU_DECODER_2X4E">
     <a name="circuit" val="CPU_DECODER_2X4E"/>
@@ -737,38 +720,38 @@
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(90,180)" name="NOT Gate"/>
-    <comp lib="0" loc="(210,450)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(300,320)" name="AND Gate"/>
-    <comp lib="0" loc="(110,160)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
+    <comp lib="1" loc="(160,220)" name="NOT Gate"/>
     <comp lib="1" loc="(300,200)" name="AND Gate"/>
-    <comp lib="1" loc="(300,380)" name="AND Gate"/>
-    <comp lib="1" loc="(300,260)" name="AND Gate"/>
-    <comp lib="0" loc="(50,160)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
     <comp lib="0" loc="(360,380)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(360,320)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
+    <comp lib="0" loc="(110,160)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
     </comp>
     <comp lib="0" loc="(360,260)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(160,220)" name="NOT Gate"/>
+    <comp lib="0" loc="(50,160)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(300,380)" name="AND Gate"/>
+    <comp lib="1" loc="(300,260)" name="AND Gate"/>
+    <comp lib="1" loc="(300,320)" name="AND Gate"/>
+    <comp lib="0" loc="(360,320)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(210,450)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(90,180)" name="NOT Gate"/>
   </circuit>
   <circuit name="CPU_REG_BYTE">
     <a name="circuit" val="CPU_REG_BYTE"/>
@@ -823,21 +806,21 @@
     <wire from="(570,150)" to="(570,210)"/>
     <wire from="(60,230)" to="(70,230)"/>
     <wire from="(320,200)" to="(390,200)"/>
-    <comp lib="0" loc="(60,230)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="v"/>
-    </comp>
-    <comp loc="(590,140)" name="CPU_BUFFER_8"/>
-    <comp lib="1" loc="(320,200)" name="OR Gate"/>
-    <comp lib="1" loc="(230,290)" name="AND Gate"/>
     <comp lib="1" loc="(140,200)" name="AND Gate"/>
     <comp lib="1" loc="(230,220)" name="AND Gate"/>
-    <comp lib="0" loc="(120,380)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="e"/>
+    <comp lib="0" loc="(650,140)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="label" val="output"/>
       <a name="labelloc" val="south"/>
     </comp>
+    <comp lib="0" loc="(230,160)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="reset"/>
+    </comp>
+    <comp lib="1" loc="(230,290)" name="AND Gate"/>
+    <comp loc="(520,140)" name="CPU_REG_8"/>
     <comp lib="0" loc="(60,170)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="h"/>
@@ -848,23 +831,23 @@
       <a name="label" val="s"/>
       <a name="labelloc" val="south"/>
     </comp>
-    <comp lib="0" loc="(650,140)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="label" val="output"/>
-      <a name="labelloc" val="south"/>
-    </comp>
-    <comp loc="(520,140)" name="CPU_REG_8"/>
     <comp lib="0" loc="(340,50)" name="Pin">
       <a name="facing" val="west"/>
       <a name="width" val="8"/>
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="0" loc="(230,160)" name="Pin">
+    <comp lib="0" loc="(60,230)" name="Pin">
       <a name="tristate" val="false"/>
-      <a name="label" val="reset"/>
+      <a name="label" val="v"/>
     </comp>
+    <comp lib="1" loc="(320,200)" name="OR Gate"/>
+    <comp lib="0" loc="(120,380)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="e"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp loc="(590,140)" name="CPU_BUFFER_8"/>
   </circuit>
   <circuit name="CPU_BUFFER_8">
     <a name="circuit" val="CPU_BUFFER_8"/>
@@ -928,34 +911,34 @@
     <wire from="(180,350)" to="(260,350)"/>
     <wire from="(170,150)" to="(170,400)"/>
     <wire from="(340,140)" to="(340,520)"/>
-    <comp lib="1" loc="(310,270)" name="AND Gate"/>
-    <comp lib="1" loc="(310,170)" name="AND Gate"/>
-    <comp lib="1" loc="(310,370)" name="AND Gate"/>
-    <comp lib="1" loc="(310,220)" name="AND Gate"/>
-    <comp lib="0" loc="(140,130)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
-    </comp>
-    <comp lib="0" loc="(420,120)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
-      <a name="appear" val="right"/>
-    </comp>
-    <comp lib="0" loc="(110,130)" name="Pin">
-      <a name="width" val="8"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="input"/>
-    </comp>
-    <comp lib="1" loc="(310,470)" name="AND Gate"/>
     <comp lib="0" loc="(230,560)" name="Pin">
       <a name="facing" val="north"/>
       <a name="tristate" val="false"/>
       <a name="label" val="enable"/>
       <a name="labelloc" val="south"/>
     </comp>
+    <comp lib="0" loc="(140,130)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="1" loc="(310,320)" name="AND Gate"/>
+    <comp lib="0" loc="(110,130)" name="Pin">
+      <a name="width" val="8"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="input"/>
+    </comp>
+    <comp lib="1" loc="(310,170)" name="AND Gate"/>
+    <comp lib="1" loc="(310,220)" name="AND Gate"/>
     <comp lib="1" loc="(310,420)" name="AND Gate"/>
+    <comp lib="1" loc="(310,370)" name="AND Gate"/>
+    <comp lib="1" loc="(310,270)" name="AND Gate"/>
+    <comp lib="0" loc="(420,120)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+      <a name="appear" val="right"/>
+    </comp>
     <comp lib="0" loc="(440,120)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -963,8 +946,8 @@
       <a name="label" val="output"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(310,320)" name="AND Gate"/>
     <comp lib="1" loc="(310,520)" name="AND Gate"/>
+    <comp lib="1" loc="(310,470)" name="AND Gate"/>
   </circuit>
   <circuit name="CPU_RAM_256">
     <a name="circuit" val="CPU_RAM_256"/>
@@ -4966,75 +4949,175 @@
     <wire from="(500,1270)" to="(630,1270)"/>
     <wire from="(2320,1550)" to="(2320,1570)"/>
     <wire from="(330,1800)" to="(330,1860)"/>
-    <comp lib="0" loc="(2270,2120)" name="Pin">
+    <comp loc="(970,900)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1750,1070)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(1230,2120)" name="Pin">
+    <comp lib="0" loc="(1620,1520)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp loc="(2270,1350)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(710,2120)" name="Pin">
+    <comp loc="(1360,2250)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1490,470)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(2140,1970)" name="Pin">
+    <comp lib="0" loc="(1620,1070)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp loc="(710,1350)" name="CPU_REG_BYTE"/>
-    <comp loc="(1230,1200)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1620,2120)" name="Pin">
+    <comp loc="(580,1050)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1880,310)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(1360,310)" name="Pin">
+    <comp loc="(1100,1200)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1100,1070)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(2010,770)" name="Pin">
+    <comp lib="0" loc="(1230,2270)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp loc="(2140,1200)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1100,1370)" name="Pin">
+    <comp loc="(580,1950)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(180,20)" name="Pin">
+      <a name="width" val="8"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="address"/>
+    </comp>
+    <comp lib="0" loc="(840,2120)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp loc="(2010,1800)" name="CPU_REG_BYTE"/>
-    <comp loc="(1880,2400)" name="CPU_REG_BYTE"/>
-    <comp loc="(1750,1200)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1750,310)" name="Pin">
+    <comp loc="(450,2250)" name="CPU_REG_BYTE"/>
+    <comp loc="(710,2550)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(2140,2270)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp loc="(1620,2100)" name="CPU_REG_BYTE"/>
-    <comp loc="(710,2100)" name="CPU_REG_BYTE"/>
-    <comp loc="(580,2400)" name="CPU_REG_BYTE"/>
-    <comp loc="(580,290)" name="CPU_REG_BYTE"/>
-    <comp loc="(840,450)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(710,2570)" name="Pin">
+    <comp lib="0" loc="(1360,1220)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(840,1970)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(710,600)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(970,2270)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(450,1650)" name="CPU_REG_BYTE"/>
+    <comp loc="(450,600)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(2010,1070)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1880,750)" name="CPU_REG_BYTE"/>
+    <comp loc="(1490,2250)" name="CPU_REG_BYTE"/>
+    <comp loc="(1620,290)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(970,1670)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2270,290)" name="CPU_REG_BYTE"/>
+    <comp loc="(2010,2250)" name="CPU_REG_BYTE"/>
+    <comp loc="(1230,2100)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1360,1820)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1880,2570)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2010,1200)" name="CPU_REG_BYTE"/>
+    <comp loc="(2400,1800)" name="CPU_REG_BYTE"/>
+    <comp loc="(1230,1500)" name="CPU_REG_BYTE"/>
+    <comp loc="(710,1950)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(580,1370)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2010,450)" name="CPU_REG_BYTE"/>
+    <comp loc="(1100,1050)" name="CPU_REG_BYTE"/>
+    <comp loc="(1880,600)" name="CPU_REG_BYTE"/>
+    <comp loc="(1360,450)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(840,470)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2400,1670)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2270,2400)" name="CPU_REG_BYTE"/>
+    <comp loc="(1360,1950)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(840,1070)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1880,900)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(2140,2120)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1230,450)" name="CPU_REG_BYTE"/>
+    <comp loc="(1880,2250)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1100,1670)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp loc="(2140,2550)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1100,2120)" name="Pin">
+    <comp loc="(1750,2100)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1750,920)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(2140,1820)" name="Pin">
+    <comp lib="0" loc="(1490,920)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1750,290)" name="CPU_REG_BYTE"/>
+    <comp loc="(580,290)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1880,470)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1620,470)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(840,1370)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
@@ -5044,17 +5127,401 @@
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp loc="(580,450)" name="CPU_REG_BYTE"/>
-    <comp loc="(1100,290)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1360,1370)" name="Pin">
+    <comp loc="(1620,750)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1750,2420)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2400,1650)" name="CPU_REG_BYTE"/>
+    <comp loc="(2010,1650)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(840,310)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1880,1820)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2270,1520)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1620,2420)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2010,770)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2270,1220)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1880,1070)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(840,1800)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(710,310)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2270,450)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1490,1220)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1620,1370)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1230,1820)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2140,1950)" name="CPU_REG_BYTE"/>
+    <comp loc="(1880,1350)" name="CPU_REG_BYTE"/>
+    <comp loc="(970,1500)" name="CPU_REG_BYTE"/>
+    <comp loc="(1490,450)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1360,920)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1360,470)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2140,2250)" name="CPU_REG_BYTE"/>
+    <comp loc="(1230,290)" name="CPU_REG_BYTE"/>
+    <comp loc="(1620,2550)" name="CPU_REG_BYTE"/>
+    <comp loc="(450,290)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1230,620)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1360,310)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1620,1220)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp loc="(1100,450)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(450,2120)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(710,1650)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1230,1370)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(450,2570)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2270,2120)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2010,1970)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2140,310)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(450,2270)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2270,1820)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(580,2400)" name="CPU_REG_BYTE"/>
+    <comp loc="(1360,2400)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1360,2270)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(580,1650)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(580,1520)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(970,1950)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(710,1220)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1750,2550)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1620,2270)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1750,750)" name="CPU_REG_BYTE"/>
+    <comp loc="(1360,600)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(450,2420)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2140,620)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
     <comp loc="(970,1350)" name="CPU_REG_BYTE"/>
-    <comp loc="(450,2400)" name="CPU_REG_BYTE"/>
-    <comp loc="(2400,1500)" name="CPU_REG_BYTE"/>
+    <comp loc="(1490,1800)" name="CPU_REG_BYTE"/>
+    <comp loc="(840,1050)" name="CPU_REG_BYTE"/>
+    <comp loc="(840,2100)" name="CPU_REG_BYTE"/>
+    <comp loc="(450,900)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(2010,2120)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2140,600)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(840,2270)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1100,1970)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1490,900)" name="CPU_REG_BYTE"/>
+    <comp loc="(2400,450)" name="CPU_REG_BYTE"/>
+    <comp loc="(1100,1350)" name="CPU_REG_BYTE"/>
+    <comp loc="(2140,290)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(970,770)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2270,1050)" name="CPU_REG_BYTE"/>
+    <comp loc="(970,2100)" name="CPU_REG_BYTE"/>
+    <comp loc="(970,2250)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(580,2420)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1490,1500)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(970,1520)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1880,770)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(140,260)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="set"/>
+    </comp>
+    <comp loc="(1750,900)" name="CPU_REG_BYTE"/>
+    <comp loc="(1490,1650)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(710,920)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(970,1070)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1750,1820)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(140,200)" name="Pin">
+      <a name="width" val="8"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="input"/>
+    </comp>
+    <comp loc="(970,600)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1880,2120)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1100,470)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2140,1800)" name="CPU_REG_BYTE"/>
+    <comp loc="(710,2400)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(2400,2420)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2270,2420)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(580,450)" name="CPU_REG_BYTE"/>
+    <comp loc="(450,2550)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1100,920)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2010,2100)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1880,1220)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(450,310)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2010,1520)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1100,1950)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(2400,620)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1620,1670)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1490,1950)" name="CPU_REG_BYTE"/>
+    <comp loc="(1620,450)" name="CPU_REG_BYTE"/>
+    <comp loc="(710,1050)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(2400,1370)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(970,290)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1100,2570)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(90,410)" name="Splitter">
+      <a name="fanout" val="16"/>
+      <a name="incoming" val="16"/>
+      <a name="appear" val="center"/>
+    </comp>
+    <comp loc="(2010,2400)" name="CPU_REG_BYTE"/>
+    <comp loc="(2270,1200)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(2270,2570)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2140,1520)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(970,1370)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(970,470)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2400,1970)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1360,1050)" name="CPU_REG_BYTE"/>
+    <comp loc="(1620,2250)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(970,1220)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2400,1050)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1230,310)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(860,100)" name="CPU_DECODER_4X16">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp loc="(2010,1050)" name="CPU_REG_BYTE"/>
+    <comp loc="(1750,1800)" name="CPU_REG_BYTE"/>
+    <comp loc="(2270,900)" name="CPU_REG_BYTE"/>
+    <comp loc="(450,2100)" name="CPU_REG_BYTE"/>
+    <comp loc="(1360,1500)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(450,1220)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2270,1500)" name="CPU_REG_BYTE"/>
+    <comp loc="(1360,1200)" name="CPU_REG_BYTE"/>
+    <comp loc="(970,450)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(2010,920)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2400,2100)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(580,1070)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
     <comp lib="0" loc="(2270,1670)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
@@ -5065,84 +5532,211 @@
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp loc="(1880,450)" name="CPU_REG_BYTE"/>
+    <comp loc="(1230,1350)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1100,1820)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1620,1970)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1100,2100)" name="CPU_REG_BYTE"/>
+    <comp loc="(1880,290)" name="CPU_REG_BYTE"/>
+    <comp loc="(840,450)" name="CPU_REG_BYTE"/>
+    <comp loc="(1620,1350)" name="CPU_REG_BYTE"/>
+    <comp loc="(2010,1500)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1490,1820)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2270,1800)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(2140,470)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1490,1050)" name="CPU_REG_BYTE"/>
+    <comp loc="(1100,2550)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1750,1220)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(580,1970)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2010,2420)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1230,770)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(840,1670)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2270,920)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2140,1350)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1100,2420)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1230,2250)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(450,1670)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(580,770)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1750,1520)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2400,290)" name="CPU_REG_BYTE"/>
+    <comp loc="(970,1050)" name="CPU_REG_BYTE"/>
+    <comp loc="(2400,1950)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(710,1370)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(710,1500)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(580,470)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1750,310)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2270,2270)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(970,1800)" name="CPU_REG_BYTE"/>
+    <comp loc="(1230,900)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(2270,310)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1360,1800)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1100,2270)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(450,1350)" name="CPU_REG_BYTE"/>
+    <comp loc="(970,2550)" name="CPU_REG_BYTE"/>
+    <comp loc="(1100,900)" name="CPU_REG_BYTE"/>
+    <comp loc="(1490,1350)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1490,1520)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(710,470)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1620,600)" name="CPU_REG_BYTE"/>
+    <comp loc="(840,600)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(450,620)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(450,1070)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(450,1500)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(2400,920)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1100,310)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2010,1950)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(2140,2570)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2010,290)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1620,310)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1360,1370)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1230,2120)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
     <comp loc="(1880,1050)" name="CPU_REG_BYTE"/>
-    <comp loc="(450,450)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2140,2420)" name="Pin">
+    <comp lib="0" loc="(2010,310)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(1880,470)" name="Pin">
+    <comp loc="(1620,2100)" name="CPU_REG_BYTE"/>
+    <comp loc="(1230,1950)" name="CPU_REG_BYTE"/>
+    <comp loc="(2400,600)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1750,770)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp loc="(1620,900)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1750,470)" name="Pin">
+    <comp lib="0" loc="(840,770)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(710,1970)" name="Pin">
+    <comp loc="(2400,1350)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(2010,620)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(1750,2120)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(580,1070)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(580,750)" name="CPU_REG_BYTE"/>
-    <comp loc="(1880,1350)" name="CPU_REG_BYTE"/>
-    <comp loc="(2270,2400)" name="CPU_REG_BYTE"/>
-    <comp loc="(2140,2100)" name="CPU_REG_BYTE"/>
-    <comp loc="(710,1200)" name="CPU_REG_BYTE"/>
-    <comp loc="(2140,1800)" name="CPU_REG_BYTE"/>
-    <comp loc="(1100,2400)" name="CPU_REG_BYTE"/>
-    <comp loc="(2010,2100)" name="CPU_REG_BYTE"/>
-    <comp loc="(450,600)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1230,1370)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(710,450)" name="CPU_REG_BYTE"/>
-    <comp loc="(450,1650)" name="CPU_REG_BYTE"/>
-    <comp loc="(2140,1050)" name="CPU_REG_BYTE"/>
-    <comp loc="(1490,1950)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1620,1670)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1750,1820)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1880,1520)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(450,1520)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(580,2420)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(450,2270)" name="Pin">
+    <comp loc="(1360,2550)" name="CPU_REG_BYTE"/>
+    <comp loc="(580,1800)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(2140,920)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
@@ -5152,271 +5746,68 @@
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(580,470)" name="Pin">
+    <comp lib="0" loc="(1880,2420)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp loc="(1230,2250)" name="CPU_REG_BYTE"/>
-    <comp loc="(1100,1500)" name="CPU_REG_BYTE"/>
-    <comp loc="(2400,2550)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(710,1220)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1360,770)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(580,900)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2010,620)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1360,2270)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2270,1650)" name="CPU_REG_BYTE"/>
-    <comp loc="(1750,2250)" name="CPU_REG_BYTE"/>
-    <comp loc="(450,1500)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(710,770)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2270,1950)" name="CPU_REG_BYTE"/>
+    <comp loc="(1750,1050)" name="CPU_REG_BYTE"/>
     <comp lib="0" loc="(580,2270)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp loc="(2400,1950)" name="CPU_REG_BYTE"/>
-    <comp loc="(840,1350)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(970,2270)" name="Pin">
+    <comp loc="(970,1200)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(580,1670)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(1230,310)" name="Pin">
+    <comp lib="0" loc="(970,620)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp loc="(1880,1650)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1230,470)" name="Pin">
+    <comp lib="0" loc="(970,2570)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(1880,310)" name="Pin">
+    <comp lib="0" loc="(1620,920)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(710,1070)" name="Pin">
+    <comp lib="0" loc="(970,1820)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(580,920)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2270,1500)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1620,770)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1360,450)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(970,2120)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(450,1950)" name="CPU_REG_BYTE"/>
-    <comp loc="(580,1200)" name="CPU_REG_BYTE"/>
-    <comp loc="(1360,900)" name="CPU_REG_BYTE"/>
     <comp loc="(1750,1350)" name="CPU_REG_BYTE"/>
-    <comp loc="(1620,1200)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2140,1520)" name="Pin">
+    <comp loc="(2270,1650)" name="CPU_REG_BYTE"/>
+    <comp loc="(1880,1800)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(2140,2420)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp loc="(450,1800)" name="CPU_REG_BYTE"/>
-    <comp loc="(710,2250)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1360,1220)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(710,900)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(580,1520)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1880,1970)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(2010,310)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1230,2100)" name="CPU_REG_BYTE"/>
-    <comp loc="(2140,290)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(970,1220)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(2270,2570)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
+    <comp lib="0" loc="(1020,40)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="16"/>
+      <a name="incoming" val="16"/>
+      <a name="appear" val="center"/>
     </comp>
     <comp loc="(2270,2550)" name="CPU_REG_BYTE"/>
-    <comp loc="(1230,2550)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1100,920)" name="Pin">
+    <comp loc="(840,1650)" name="CPU_REG_BYTE"/>
+    <comp loc="(1750,2400)" name="CPU_REG_BYTE"/>
+    <comp loc="(1360,900)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1620,2570)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp loc="(1490,290)" name="CPU_REG_BYTE"/>
-    <comp loc="(1880,1500)" name="CPU_REG_BYTE"/>
-    <comp loc="(1490,2550)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1880,620)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(2010,2570)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1490,600)" name="CPU_REG_BYTE"/>
-    <comp loc="(710,600)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2400,1820)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(450,920)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1620,600)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(450,2570)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2400,2250)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(840,1370)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1360,600)" name="CPU_REG_BYTE"/>
-    <comp loc="(1620,1500)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1880,920)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1620,620)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1230,290)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2140,310)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1880,900)" name="CPU_REG_BYTE"/>
-    <comp loc="(1360,1200)" name="CPU_REG_BYTE"/>
-    <comp loc="(2010,750)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1230,770)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(2140,620)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1360,1350)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1230,1070)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(840,2120)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(2140,1370)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1100,1220)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1880,2550)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2270,920)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1230,600)" name="CPU_REG_BYTE"/>
-    <comp loc="(2140,1350)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2270,770)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(840,600)" name="CPU_REG_BYTE"/>
-    <comp loc="(580,600)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1230,1970)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(140,260)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="set"/>
-    </comp>
-    <comp lib="0" loc="(450,1220)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1490,2400)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(840,1520)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(970,1370)" name="Pin">
+    <comp loc="(1880,1200)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(710,1520)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
@@ -5432,52 +5823,7 @@
       <a name="bit6" val="1"/>
       <a name="bit7" val="1"/>
     </comp>
-    <comp loc="(1620,1800)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1620,1520)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2400,2100)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(970,2420)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1750,1970)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1880,750)" name="CPU_REG_BYTE"/>
-    <comp loc="(1750,750)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(710,2270)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(2140,920)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1230,1950)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1100,1670)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(2010,1820)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1750,1220)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1100,1070)" name="Pin">
+    <comp lib="0" loc="(2270,620)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
@@ -5487,862 +5833,17 @@
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp loc="(840,1200)" name="CPU_REG_BYTE"/>
-    <comp loc="(840,1800)" name="CPU_REG_BYTE"/>
-    <comp loc="(710,2550)" name="CPU_REG_BYTE"/>
-    <comp loc="(970,2550)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1490,2270)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1230,1220)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(580,1220)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1490,1220)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(2010,920)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1490,770)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(580,2100)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2270,2270)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1880,1820)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(2400,1070)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2010,1050)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1750,770)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(2140,470)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1880,1220)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1750,2550)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1230,2420)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(2400,1520)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(2270,470)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1620,2250)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2400,2570)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1490,1050)" name="CPU_REG_BYTE"/>
-    <comp loc="(1360,2100)" name="CPU_REG_BYTE"/>
-    <comp loc="(1230,450)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2010,1370)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(580,1950)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(450,2120)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(140,200)" name="Pin">
-      <a name="width" val="8"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="input"/>
-    </comp>
-    <comp lib="0" loc="(1490,1970)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(2140,1070)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(2400,1970)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1880,1370)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1230,2400)" name="CPU_REG_BYTE"/>
-    <comp loc="(1880,1200)" name="CPU_REG_BYTE"/>
-    <comp loc="(2400,1200)" name="CPU_REG_BYTE"/>
-    <comp loc="(1100,750)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1360,920)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2270,2250)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1750,1070)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2400,2400)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1360,1070)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(580,620)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2010,900)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(710,1370)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(970,1500)" name="CPU_REG_BYTE"/>
-    <comp loc="(1620,2400)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2400,1220)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1360,1970)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1620,1220)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2010,450)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1360,1820)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(450,2100)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(710,920)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(840,2400)" name="CPU_REG_BYTE"/>
-    <comp loc="(1750,2400)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(970,470)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1620,1820)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1880,2570)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(970,920)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(970,1820)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(450,1200)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1360,2120)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1490,2100)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(970,1520)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(710,1050)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2270,1820)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(710,1950)" name="CPU_REG_BYTE"/>
-    <comp loc="(450,900)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1620,1370)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1100,470)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(580,2570)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(840,2420)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(450,1050)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1100,2570)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2140,900)" name="CPU_REG_BYTE"/>
-    <comp loc="(840,1500)" name="CPU_REG_BYTE"/>
-    <comp loc="(970,1800)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(710,310)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1880,2250)" name="CPU_REG_BYTE"/>
-    <comp loc="(1100,1350)" name="CPU_REG_BYTE"/>
-    <comp loc="(2400,450)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1880,2120)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(840,620)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(580,1370)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1880,2100)" name="CPU_REG_BYTE"/>
-    <comp loc="(1880,1800)" name="CPU_REG_BYTE"/>
-    <comp loc="(1230,900)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1100,2270)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1100,310)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(840,2570)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1750,1800)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(840,770)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(970,2400)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1230,920)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1230,750)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(970,310)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(840,1070)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2010,290)" name="CPU_REG_BYTE"/>
-    <comp loc="(1750,2100)" name="CPU_REG_BYTE"/>
-    <comp loc="(2400,600)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2010,2270)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1230,1500)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(840,310)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2140,1950)" name="CPU_REG_BYTE"/>
-    <comp loc="(2010,1200)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(710,470)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1490,1200)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1360,2570)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1490,1500)" name="CPU_REG_BYTE"/>
-    <comp loc="(1490,2250)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2010,1220)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2270,750)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1750,2570)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(450,1970)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2010,2400)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2400,2270)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1360,290)" name="CPU_REG_BYTE"/>
-    <comp loc="(970,600)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1490,2420)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1490,900)" name="CPU_REG_BYTE"/>
-    <comp loc="(1360,2400)" name="CPU_REG_BYTE"/>
-    <comp loc="(2010,1350)" name="CPU_REG_BYTE"/>
-    <comp loc="(1100,600)" name="CPU_REG_BYTE"/>
-    <comp loc="(2400,1650)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1360,620)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(710,1500)" name="CPU_REG_BYTE"/>
+    <comp loc="(1750,1950)" name="CPU_REG_BYTE"/>
     <comp loc="(2400,900)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2400,2120)" name="Pin">
+    <comp lib="0" loc="(710,2270)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp loc="(1620,1350)" name="CPU_REG_BYTE"/>
-    <comp loc="(580,1500)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(90,410)" name="Splitter">
-      <a name="fanout" val="16"/>
-      <a name="incoming" val="16"/>
-      <a name="appear" val="center"/>
-    </comp>
-    <comp loc="(1100,1050)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(840,920)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(710,290)" name="CPU_REG_BYTE"/>
-    <comp loc="(1750,1500)" name="CPU_REG_BYTE"/>
-    <comp loc="(1360,1950)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1620,1970)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(2140,2270)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2400,1800)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2010,2420)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1490,1520)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(840,750)" name="CPU_REG_BYTE"/>
-    <comp loc="(1100,1800)" name="CPU_REG_BYTE"/>
-    <comp loc="(1100,900)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(450,1370)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1620,1650)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(450,310)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1230,1670)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1880,1070)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1880,600)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(710,1820)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(2140,770)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(450,2250)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(970,1670)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1620,2270)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2270,1800)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2270,620)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2140,450)" name="CPU_REG_BYTE"/>
-    <comp loc="(1750,290)" name="CPU_REG_BYTE"/>
-    <comp loc="(1750,1050)" name="CPU_REG_BYTE"/>
-    <comp loc="(2140,1650)" name="CPU_REG_BYTE"/>
-    <comp loc="(1100,1650)" name="CPU_REG_BYTE"/>
-    <comp loc="(970,450)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2140,2120)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(450,620)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1880,1670)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(970,1050)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(840,1970)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2270,1200)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2010,1670)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1750,2420)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1360,2420)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1620,1050)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(970,620)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2270,900)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2010,1070)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2400,1050)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(580,310)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1750,1670)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(970,900)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1490,620)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(840,2250)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(840,1670)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1100,1200)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1880,770)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1490,920)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2140,1500)" name="CPU_REG_BYTE"/>
-    <comp loc="(2140,2250)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1100,770)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1230,1800)" name="CPU_REG_BYTE"/>
-    <comp loc="(80,410)" name="CPU_DECODER_4X16"/>
-    <comp lib="0" loc="(450,1070)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2140,2400)" name="CPU_REG_BYTE"/>
-    <comp loc="(970,2100)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1360,470)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1880,290)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2400,1370)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1020,40)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="16"/>
-      <a name="incoming" val="16"/>
-      <a name="appear" val="center"/>
-    </comp>
-    <comp lib="0" loc="(1360,1670)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2140,600)" name="CPU_REG_BYTE"/>
-    <comp loc="(1360,1050)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1490,2120)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1880,2420)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1230,1650)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(970,2570)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1750,1650)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2270,2420)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(2010,470)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(450,290)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1750,2270)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1360,2550)" name="CPU_REG_BYTE"/>
-    <comp loc="(1620,1950)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(580,1970)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2270,2100)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(840,2270)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(710,1670)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(710,1650)" name="CPU_REG_BYTE"/>
-    <comp loc="(1620,450)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1230,2570)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2270,450)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2400,470)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1230,620)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(450,1350)" name="CPU_REG_BYTE"/>
-    <comp loc="(2270,600)" name="CPU_REG_BYTE"/>
-    <comp loc="(1230,1050)" name="CPU_REG_BYTE"/>
-    <comp loc="(580,1800)" name="CPU_REG_BYTE"/>
-    <comp loc="(1750,600)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2400,620)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(840,2550)" name="CPU_REG_BYTE"/>
-    <comp loc="(1750,900)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1100,1820)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1100,2420)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2010,1950)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1620,2570)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1360,1500)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(160,230)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="reset"/>
-    </comp>
-    <comp loc="(2010,1650)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1620,1070)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1490,1650)" name="CPU_REG_BYTE"/>
-    <comp loc="(1230,1350)" name="CPU_REG_BYTE"/>
-    <comp loc="(840,900)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2270,1520)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(710,2400)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2400,920)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
+    <comp loc="(450,1950)" name="CPU_REG_BYTE"/>
+    <comp loc="(840,290)" name="CPU_REG_BYTE"/>
     <comp loc="(710,750)" name="CPU_REG_BYTE"/>
-    <comp loc="(970,290)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1100,1970)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2270,1050)" name="CPU_REG_BYTE"/>
-    <comp loc="(970,1950)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(450,470)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(140,280)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="enable"/>
-    </comp>
-    <comp loc="(1490,450)" name="CPU_REG_BYTE"/>
-    <comp loc="(970,2250)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1490,1070)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(2140,750)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1620,920)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(450,770)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1490,1670)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1490,2570)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(2010,1520)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(580,1670)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(580,2250)" name="CPU_REG_BYTE"/>
-    <comp loc="(1360,1800)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(970,1970)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1490,310)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1100,2100)" name="CPU_REG_BYTE"/>
-    <comp loc="(580,1650)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2270,1220)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1490,1350)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1620,310)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(450,2550)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(450,1820)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(2400,2420)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1620,2420)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1100,2250)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1230,2270)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(970,750)" name="CPU_REG_BYTE"/>
-    <comp loc="(2400,750)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1100,620)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(970,1200)" name="CPU_REG_BYTE"/>
-    <comp loc="(840,1950)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1750,620)" name="Pin">
+    <comp lib="0" loc="(1880,1370)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
@@ -6352,15 +5853,68 @@
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp loc="(580,2550)" name="CPU_REG_BYTE"/>
-    <comp loc="(2010,2250)" name="CPU_REG_BYTE"/>
-    <comp loc="(2010,2550)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2010,1970)" name="Pin">
+    <comp loc="(1880,2400)" name="CPU_REG_BYTE"/>
+    <comp loc="(710,2250)" name="CPU_REG_BYTE"/>
+    <comp loc="(1620,1050)" name="CPU_REG_BYTE"/>
+    <comp loc="(970,1650)" name="CPU_REG_BYTE"/>
+    <comp loc="(1100,2250)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(580,1820)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp loc="(1490,750)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(450,920)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1100,1800)" name="CPU_REG_BYTE"/>
+    <comp loc="(1490,2100)" name="CPU_REG_BYTE"/>
+    <comp loc="(1100,1500)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(970,2120)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(580,1220)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2010,900)" name="CPU_REG_BYTE"/>
+    <comp loc="(2400,2400)" name="CPU_REG_BYTE"/>
+    <comp loc="(2010,2550)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(2400,1820)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1880,1500)" name="CPU_REG_BYTE"/>
+    <comp loc="(840,1950)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1360,2570)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(840,1500)" name="CPU_REG_BYTE"/>
+    <comp loc="(580,1350)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1750,1670)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(970,310)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1750,1650)" name="CPU_REG_BYTE"/>
+    <comp loc="(1750,1500)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(2010,1820)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
     <comp lib="0" loc="(840,1820)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
@@ -6371,19 +5925,158 @@
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
+    <comp lib="0" loc="(2010,470)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
     <comp loc="(2010,600)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1230,1070)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1490,1970)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
     <comp lib="0" loc="(1230,1520)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(1230,1820)" name="Pin">
+    <comp lib="0" loc="(1230,470)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp loc="(2400,290)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1750,920)" name="Pin">
+    <comp loc="(840,1200)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1620,770)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1620,1800)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(840,1220)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(710,450)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1750,2570)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1750,2270)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2140,1220)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1100,290)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(140,280)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="enable"/>
+    </comp>
+    <comp lib="0" loc="(1880,1520)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(580,2250)" name="CPU_REG_BYTE"/>
+    <comp loc="(1230,2400)" name="CPU_REG_BYTE"/>
+    <comp loc="(580,900)" name="CPU_REG_BYTE"/>
+    <comp loc="(710,1350)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1880,620)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1750,600)" name="CPU_REG_BYTE"/>
+    <comp loc="(710,1200)" name="CPU_REG_BYTE"/>
+    <comp loc="(1100,1650)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(2010,2570)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2010,1800)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1360,1970)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(450,450)" name="CPU_REG_BYTE"/>
+    <comp loc="(1360,750)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(450,1370)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2400,2550)" name="CPU_REG_BYTE"/>
+    <comp loc="(2400,750)" name="CPU_REG_BYTE"/>
+    <comp loc="(2400,1200)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1100,620)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1230,1050)" name="CPU_REG_BYTE"/>
+    <comp loc="(1230,2550)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(2270,470)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1230,1670)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(970,920)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(710,1670)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2140,1820)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1230,920)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1880,2100)" name="CPU_REG_BYTE"/>
+    <comp loc="(1490,2550)" name="CPU_REG_BYTE"/>
+    <comp loc="(2140,1200)" name="CPU_REG_BYTE"/>
+    <comp loc="(1100,600)" name="CPU_REG_BYTE"/>
+    <comp loc="(580,2550)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1750,470)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2270,770)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(580,2100)" name="CPU_REG_BYTE"/>
+    <comp loc="(2270,2100)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1490,2420)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
@@ -6393,139 +6086,344 @@
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp loc="(1620,750)" name="CPU_REG_BYTE"/>
-    <comp loc="(840,290)" name="CPU_REG_BYTE"/>
-    <comp loc="(580,1050)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2140,1220)" name="Pin">
+    <comp loc="(1490,1200)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(2400,1220)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp loc="(840,1050)" name="CPU_REG_BYTE"/>
-    <comp loc="(2010,1500)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2010,2120)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1880,1950)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(580,770)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1750,1370)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1100,2550)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2270,310)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(2400,1670)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1100,1950)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(450,1670)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1750,1950)" name="CPU_REG_BYTE"/>
-    <comp loc="(1620,2550)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(840,1220)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1750,450)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1750,1520)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(2140,2570)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(450,2420)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(970,1650)" name="CPU_REG_BYTE"/>
-    <comp loc="(1360,2250)" name="CPU_REG_BYTE"/>
-    <comp loc="(2270,290)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1100,1520)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(710,1800)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(1620,470)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(840,470)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1620,290)" name="CPU_REG_BYTE"/>
-    <comp loc="(1360,750)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(970,1070)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(840,2100)" name="CPU_REG_BYTE"/>
-    <comp loc="(1360,1650)" name="CPU_REG_BYTE"/>
-    <comp loc="(580,1350)" name="CPU_REG_BYTE"/>
-    <comp lib="0" loc="(2270,1970)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(970,770)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(580,1820)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1490,1800)" name="CPU_REG_BYTE"/>
+    <comp loc="(2140,750)" name="CPU_REG_BYTE"/>
     <comp lib="0" loc="(2270,1070)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(1490,470)" name="Pin">
+    <comp lib="0" loc="(1360,770)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp loc="(2400,1350)" name="CPU_REG_BYTE"/>
+    <comp loc="(2140,900)" name="CPU_REG_BYTE"/>
+    <comp loc="(970,750)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(2140,1070)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2270,2250)" name="CPU_REG_BYTE"/>
+    <comp loc="(2140,2100)" name="CPU_REG_BYTE"/>
+    <comp loc="(1100,2400)" name="CPU_REG_BYTE"/>
+    <comp loc="(840,1350)" name="CPU_REG_BYTE"/>
+    <comp loc="(580,1500)" name="CPU_REG_BYTE"/>
+    <comp loc="(710,290)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1490,1670)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(710,2100)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1490,2270)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1620,620)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1230,1650)" name="CPU_REG_BYTE"/>
+    <comp loc="(1100,750)" name="CPU_REG_BYTE"/>
+    <comp loc="(2270,750)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(160,230)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="reset"/>
+    </comp>
+    <comp lib="0" loc="(1750,1970)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(970,2400)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1490,770)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1490,1070)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2270,600)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(2140,770)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2010,1220)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2400,1070)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(580,750)" name="CPU_REG_BYTE"/>
+    <comp loc="(1620,1950)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1880,1670)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2010,750)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(840,920)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1230,1970)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2400,2270)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1620,1650)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(2400,2120)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(710,770)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1750,620)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(580,2570)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1360,1650)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(710,2120)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(710,1820)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2010,1670)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(80,410)" name="CPU_DECODER_4X16"/>
+    <comp lib="0" loc="(1100,770)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1360,1670)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2010,1370)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(710,1970)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1490,310)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1360,290)" name="CPU_REG_BYTE"/>
+    <comp loc="(2140,1650)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(710,1070)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1100,1220)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1100,1520)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(450,1820)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2010,2270)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1230,1800)" name="CPU_REG_BYTE"/>
     <comp lib="0" loc="(1880,2270)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(180,20)" name="Pin">
+    <comp lib="0" loc="(1100,2120)" name="Pin">
+      <a name="output" val="true"/>
       <a name="width" val="8"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="address"/>
+      <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(1490,1820)" name="Pin">
+    <comp loc="(840,2400)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1230,1220)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1490,2400)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1360,2420)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1490,2570)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(580,600)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(2140,1970)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2400,1520)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1490,290)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1490,620)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(840,750)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(2400,2570)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1620,1500)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(580,920)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1620,1820)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2010,1350)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(450,470)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2140,1050)" name="CPU_REG_BYTE"/>
+    <comp loc="(1750,450)" name="CPU_REG_BYTE"/>
+    <comp loc="(840,900)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(840,620)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(710,1800)" name="CPU_REG_BYTE"/>
+    <comp loc="(2400,2250)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(840,2570)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2140,450)" name="CPU_REG_BYTE"/>
+    <comp loc="(1880,1950)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1100,1370)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2400,1500)" name="CPU_REG_BYTE"/>
+    <comp loc="(1230,750)" name="CPU_REG_BYTE"/>
+    <comp loc="(450,1800)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1620,2120)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(970,2420)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1880,1970)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(450,750)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(840,1520)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2140,1500)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(2140,1370)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1230,600)" name="CPU_REG_BYTE"/>
+    <comp loc="(1750,2250)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1750,1370)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(840,2550)" name="CPU_REG_BYTE"/>
+    <comp loc="(450,1050)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(710,2570)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(580,310)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2400,470)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
@@ -6535,20 +6433,173 @@
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(710,1520)" name="Pin">
+    <comp lib="0" loc="(1360,620)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp loc="(840,1650)" name="CPU_REG_BYTE"/>
-    <comp loc="(450,750)" name="CPU_REG_BYTE"/>
-    <comp loc="(860,100)" name="CPU_DECODER_4X16">
-      <a name="facing" val="south"/>
+    <comp lib="0" loc="(2270,1970)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
     </comp>
+    <comp lib="0" loc="(580,620)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1880,1650)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1360,2120)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1620,1200)" name="CPU_REG_BYTE"/>
+    <comp loc="(1620,900)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1230,2420)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(840,2420)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2270,1350)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1490,2120)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(2140,2400)" name="CPU_REG_BYTE"/>
+    <comp loc="(1490,600)" name="CPU_REG_BYTE"/>
+    <comp loc="(1880,450)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(450,1520)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1230,1200)" name="CPU_REG_BYTE"/>
     <comp lib="0" loc="(710,620)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1750,2120)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1360,2100)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(450,770)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(580,1200)" name="CPU_REG_BYTE"/>
+    <comp loc="(1620,2400)" name="CPU_REG_BYTE"/>
+    <comp loc="(450,2400)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1360,1070)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(450,1970)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(1880,2550)" name="CPU_REG_BYTE"/>
+    <comp loc="(2270,1950)" name="CPU_REG_BYTE"/>
+    <comp loc="(1490,750)" name="CPU_REG_BYTE"/>
+    <comp loc="(1360,1350)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1230,2570)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(840,2250)" name="CPU_REG_BYTE"/>
+    <comp loc="(1750,1200)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(970,1970)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(710,900)" name="CPU_REG_BYTE"/>
+    <comp lib="0" loc="(1880,920)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(450,1200)" name="CPU_REG_BYTE"/>
+  </circuit>
+  <circuit name="CPU_MEM_1">
+    <a name="circuit" val="CPU_MEM_1"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <path d="M71,51 Q75,61 79,51" fill="none" stroke="#808080" stroke-width="2"/>
+      <rect fill="none" height="91" stroke="#000000" stroke-width="2" width="70" x="50" y="49"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="85" y="72">CPU</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="85" y="87">MEM</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="87" y="106">1</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="59" y="73">a</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="61" y="104">b</text>
+      <circ-port height="8" pin="150,220" width="8" x="46" y="66"/>
+      <circ-port height="8" pin="150,300" width="8" x="46" y="96"/>
+      <circ-port height="10" pin="570,250" width="10" x="115" y="75"/>
+      <circ-anchor facing="east" height="6" width="6" x="117" y="77"/>
+    </appear>
+    <wire from="(180,260)" to="(210,260)"/>
+    <wire from="(540,310)" to="(540,350)"/>
+    <wire from="(150,300)" to="(180,300)"/>
+    <wire from="(350,370)" to="(440,370)"/>
+    <wire from="(510,250)" to="(570,250)"/>
+    <wire from="(410,340)" to="(440,340)"/>
+    <wire from="(280,240)" to="(440,240)"/>
+    <wire from="(150,220)" to="(210,220)"/>
+    <wire from="(180,260)" to="(180,300)"/>
+    <wire from="(280,240)" to="(280,350)"/>
+    <wire from="(400,270)" to="(400,310)"/>
+    <wire from="(180,390)" to="(290,390)"/>
+    <wire from="(500,250)" to="(510,250)"/>
+    <wire from="(400,310)" to="(540,310)"/>
+    <wire from="(280,350)" to="(290,350)"/>
+    <wire from="(270,240)" to="(280,240)"/>
+    <wire from="(180,300)" to="(180,390)"/>
+    <wire from="(510,250)" to="(510,280)"/>
+    <wire from="(410,280)" to="(410,340)"/>
+    <wire from="(410,280)" to="(510,280)"/>
+    <wire from="(400,270)" to="(440,270)"/>
+    <wire from="(500,350)" to="(540,350)"/>
+    <comp lib="1" loc="(500,250)" name="NAND Gate"/>
+    <comp lib="0" loc="(150,300)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(570,250)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(608,255)" name="Text">
+      <a name="text" val="e"/>
+      <a name="font" val="SansSerif bolditalic 18"/>
+    </comp>
+    <comp lib="1" loc="(500,350)" name="NAND Gate"/>
+    <comp lib="6" loc="(118,226)" name="Text">
+      <a name="text" val="s"/>
+      <a name="font" val="SansSerif bolditalic 18"/>
+    </comp>
+    <comp lib="1" loc="(350,370)" name="NAND Gate"/>
+    <comp lib="0" loc="(150,220)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(270,240)" name="NAND Gate"/>
+    <comp lib="6" loc="(117,305)" name="Text">
+      <a name="text" val="e"/>
+      <a name="font" val="SansSerif bolditalic 18"/>
     </comp>
   </circuit>
 </project>
